@@ -1,0 +1,207 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+
+}
+
+html {
+
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100;
+    margin: 0 auto;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+
+header,footer {
+    background-color: #192a56;
+    padding-top: 16px 0;
+    color: #fff;
+
+}
+
+h1 {
+    color: white;
+}
+
+header>.container,
+footer>.container{
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+}
+
+nav {
+
+    background-color: #575fcf;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 8px;
+}
+
+.menu-hamburguer {
+    width: 32px;
+    cursor: pointer;
+    align-items: center;
+
+}
+
+.menu-hamburguer span {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-bottom: 4px;
+    margin-top: 4px;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-a-loja img {
+    max-width: 400px;
+    margin-top: 16px;
+    margin-right: 24px;
+}
+
+#titulo-paragrafo {
+    margin-top: 16px;
+
+}
+
+section {
+    padding: 48px 0;
+    margin-top: 70px;
+    
+}
+
+.lista-veiculos {
+    flex-wrap: wrap;
+}
+
+.lista-veiculos li{
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+
+}
+
+.lista-veiculos li h3 {
+    margin: 16px 0;
+}
+
+.lista-veiculos li img {
+    max-width: 100%;
+}
+
+.item-central {
+
+    margin: 0 5%;
+}
+
+ button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: green;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    border-radius: 6px;
+    margin-top: 16px ;
+}
+
+
+
+.price  {
+    margin: 16px 0;
+    display: block;
+}
+
+.lista-veiculos li p {
+    width: 100%;
+    margin: 16px 0;
+}
+
+.price del {
+    color: #ccc;
+}
+
+.lista-veiculos li strong{
+    margin-bottom: 16px;
+}
+
+.form-campo{
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+
+.form-campo label{
+    font-weight: bold;
+    display: block;
+}
+
+.form-campo input,.form-campo textarea{
+
+    width: 100%;
+    display: block;
+    padding: 8px;
+
+}
+
+.form-campo textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+}
+
+form button {
+    max-width: 120px;
+}
+
+
+footer li {
+    list-style: none;
+}
+
+footer li img{
+    height: 32px;
+    margin-left: 16px;
+  
+}
+
