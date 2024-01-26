@@ -1,5 +1,7 @@
 Projeto WEB - Lojas de Carros
 
+Neste projeto trabalhei com as seguinte funcionalidades:
+
 Menu Hamburguer Funcional: 
 Implementei um menu hamburguer totalmente funcional que se expande e recolhe de forma responsiva às ações do usuário, como cliques ou toques. A experiência do usuário é aprimorada com uma navegação intuitiva e amigável.
 
